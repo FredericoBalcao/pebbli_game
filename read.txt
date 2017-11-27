@@ -1,0 +1,16 @@
+(compile-file "C:\\Users\\Fred\\Desktop\\Projeto Jogo IA\\Pebbli.lisp")
+
+(load "C:\\Users\\Fred\\Desktop\\Projeto Jogo IA\\Pebbli.lisp")
+
+(setf tab (Cria-Pebbli))
+
+(init-Pebbli tab)
+
+(PebbliLevel2List *pebbli-str*)
+
+(ListList2Matrix (PebbliLevel2List *pebbli-str*))
+
+(Print-Pebbli (ListList2Matrix (PebbliLevel2List *pebbli-str*)))
+
+
+
